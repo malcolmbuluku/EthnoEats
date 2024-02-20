@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "ethnoEats",
+    "slug": "ethnoEats",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon1.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FDECEF"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#FDECEF"
+      },
+      "package": "com.ethnoEats.warutereD"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon1.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "tsconfigPaths": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "b87f3334-b6f1-454a-9756-5be7b2fdaa5b"
+      }
+    }
+  }
+}
